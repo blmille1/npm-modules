@@ -1,6 +1,6 @@
 {
   "name": "cfn-global-dynamodb-custom-resource-manager",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Process AWS CloudFormation Custom Resource events to manage Global DynamoDB Tables",
   "main": "index.js",
   "scripts": {
