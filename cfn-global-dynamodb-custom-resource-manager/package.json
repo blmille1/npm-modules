@@ -1,0 +1,28 @@
+{
+  "name": "cfn-global-dynamodb-custom-resource-manager",
+  "version": "0.0.1",
+  "description": "Process AWS CloudFormation Custom Resource events to manage Global DynamoDB Tables",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blmille1/cloudformation-templates.git"
+  },
+  "keywords": [
+    "cloudformation",
+    "dynamodb",
+    "failover"
+  ],
+  "author": "Brandon Miller",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/blmille1/cloudformation-templates/issues"
+  },
+  "homepage": "https://github.com/blmille1/cloudformation-templates#readme",
+  "dependencies": {
+    "aws-sdk": "^2.848.0",
+    "cfn-response-async": "^1.0.0"
+  }
+}
