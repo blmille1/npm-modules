@@ -20,7 +20,6 @@ npm install cfn-global-dynamodb-custom-resource-manager
 const GlobalDynamodbManager = require('cfn-global-dynamodb-custom-resource-manager');
 
 exports.handler = async (event, context) => {
-    console.log(JSON.stringify(event), JSON.stringify(context));
     let manager = new GlobalDynamodbManager();
     await manager.processEvent(event, context);
 };
